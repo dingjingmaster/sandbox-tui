@@ -4,10 +4,10 @@ mkdir -p ~/.cargo
 
 cat > ~/.cargo/config.toml <<EOF
 [source.crates-io]
-replace-with = "rsproxy"
+replace-with = "tuna"
 
-[source.rsproxy]
-registry = "https://rsproxy.cn/crates.io-index"
+[source.tuna]
+registry = "https://mirrors.tuna.tsinghua.edu.cn/git/crates.io-index.git"
 
 [net]
 git-fetch-with-cli = true
